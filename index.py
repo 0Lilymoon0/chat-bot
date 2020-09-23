@@ -15,3 +15,10 @@ print("Please enter the answer to 5 + 5. If you get it right, go ahead and say '
 
 user_response = ""
 
+while True:
+  user_response = input("Please enter the answer to 5 + 5. If you get it right, go ahead and say 'done' the next time you are asked. ")
+
+  if user_response == "done" or "Done":
+    break
+  
+  
