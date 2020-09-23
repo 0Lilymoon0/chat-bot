@@ -21,4 +21,5 @@ while True:
   if user_response == "done" or "Done":
     break
   
-  
+  bot_response = get_math_bot_response(user_response)
+  print(bot_response)
